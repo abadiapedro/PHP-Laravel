@@ -27,7 +27,7 @@ class SeriesController extends Controller
         $serie = new Serie();
         $serie->nome = $nomeSerie;
         $serie ->save();
-        
+
         return redirect('/series');
     }
 }
